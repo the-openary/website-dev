@@ -2,50 +2,29 @@
 
 # main menu
 [[main]]
-name = "Home"
-url = "/"
+name = "Blog"
+url = "blog/"
 weight = 1
 
 [[main]]
 name = "About"
 url = "about/"
-weight = 2
+weight = 4
 
 [[main]]
-name = "Elements"
-url = "elements/"
+name = "Contact"
+url = "contact/"
 weight = 3
 
 [[main]]
-weight = 4
-name = "Pages"
+weight = 2
+name = "Projects"
 hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-url = "blog/"
-
-[[main]]
-parent = "Pages"
-name = "Contact"
-url = "contact/"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
-url = "authors/"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "categories/"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
-
+parent = "Projects"
+name = "Neutrino"
+url = "neutrino/"
 
 # footer menu
 [[footer]]
