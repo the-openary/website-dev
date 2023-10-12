@@ -37,9 +37,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = false
-label = "get a quote"
-link = "contact"
+enable = true
+label = "Join the Discord!"
+link = "https://discord.gg/XuTDdh6ZXT"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
