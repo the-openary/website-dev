@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: "Inspiring with innovation"
-  content: "The Openary is a project that aims to help inspire that everyone can make a difference. Check out our [<u>projects</u>](/neutrino)" 
+  title: "Everyone's a maker.<br>Including you</br>"
+  content: "The Openary is a project that aims " 
   image: "/images/banner.png"
   button:
-    enable: false
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    enable: true
+    label: "Get Started"
+    link: "/neutrino"
 
 # Features // disabled rn
 

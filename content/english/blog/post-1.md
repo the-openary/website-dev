@@ -4,12 +4,12 @@ meta_title: ""
 description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Application", "Data"]
+categories: ["Announcements"]
 author: "qcoral"
-tags: ["hugoplate", "launch"]
+tags: ["meta", "launch"]
 draft: false
 ---
 
 ## Launch of the Openary!
 
-This project has been one I've been working on for months now
+Happy to finally announce the launch of the website
