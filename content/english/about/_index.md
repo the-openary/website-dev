@@ -1,9 +1,9 @@
 ---
-title: "Hey, I'm Alex!"
+title: "The Openary"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/avatar.png"
 draft: false
 ---
 
-I'm a Senior High School student in Toronto, Canada. 
+Lorem ipsum {{< image src="images/infogrplaceholder.png" caption="" alt="alter-text" height="" width="" position="right" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
