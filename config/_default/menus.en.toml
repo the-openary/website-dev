@@ -32,15 +32,21 @@ parent = "Projects"
 name = "Neutrino"
 url = "neutrino/"
 
+[[main]]
+parent = "Projects"
+name = "Getting Started"
+url = "getting-started/"
+
+
 # footer menu
 # [[footer]]
-# name = "About"
-# url = "about/"
+# name = "Personal Site"
+# url = "https://alexren.me/"
 # weight = 1
 
 # [[footer]]
-# name = "Elements"
-# url = "elements/"
+# name = "Credits"
+# url = "credits/"
 # weight = 2
 
 # [[footer]]

@@ -1,9 +1,9 @@
 ---
-title: "Where innovation and inspiration overlap..."
-meta_title: "About // the-openary"
+title: "Hey, I'm Alex!"
+meta_title: "About"
 description: "this is meta description"
 image: "/images/avatar.png"
 draft: false
 ---
 
-I'm a 17 year old maker based in Toronto, Canada.
+I'm a Senior High School student in Toronto, Canada. 

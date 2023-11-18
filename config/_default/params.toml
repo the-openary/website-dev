@@ -2,8 +2,8 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = "images/the-openary logo.png"
-logo_darkmode = "images/the-openary logo dark.png"
+logo = "images/logo-lightmode.png"
+logo_darkmode = "images/logo-darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "160px"
@@ -11,7 +11,7 @@ logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Hugoplate"
+logo_text = "The Openary"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Made with <3 by [qcoral](https://alexren.me)"
+copyright = "Made with <3 by [<u>Alex</u>](https://alexren.me)"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
