@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "<monofont>Freedom for everyone, <br><pinkhl>one invention at a time</pinkhl></br><monofont>"
+  title: "<monofont>A new way of innovating...<monofont>"
   content: "The Openary is a project that aims to make innovation accessible to everyone." 
   image: "/images/nobanner.png"
   button:
