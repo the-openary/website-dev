@@ -39,7 +39,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "Join the Discord!"
-link = "https://discord.gg/XuTDdh6ZXT"
+link = "https://discord.com/invite/VZFWGp7FHZ"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
@@ -56,9 +56,9 @@ show_categories = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+keywords = ["The Openary", "3D Printing", "Neutrino"]
+description = "A project dedicated to making innovation better"
+author = "qcoral"
 image = "images/og-image.png"
 
 

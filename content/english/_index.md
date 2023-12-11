@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "<monofont>A new way of innovating...<monofont>"
-  content: "The Openary is a project that aims to make innovation accessible to everyone." 
+  title: "<monofont>Make something that can impact the <pinkhl>world</hl><monofont>"
+  content: "The Openary is a project that aims to inspire others to make *for* others. We believe that through technology & innovation, each one of us has the power to make the world a better place. Whether that be solving a global issue, changing your local community, or just helping your neighbour. No matter your skill, background, or resources, there's a project out there for **you.**" 
   image: "/images/nobanner.png"
   button:
     enable: true
