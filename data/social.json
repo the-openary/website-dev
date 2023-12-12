@@ -9,11 +9,6 @@
       "name": "github",
       "icon": "fab fa-github",
       "link": "https://www.github.com/the-openary"
-    },
-    {
-      "name": "linkedin",
-      "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/in/qcoral"
     }
   ]
 }

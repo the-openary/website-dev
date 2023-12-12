@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: "<monofont>Make something that can impact the <pinkhl>world</hl><monofont>"
-  content: "The Openary is a project that aims to inspire others to make *for* others. We believe that through technology & innovation, each one of us has the power to make the world a better place. Whether that be solving a global issue, changing your local community, or just helping your neighbour. No matter your skill, background, or resources, there's a project out there for **you.**" 
+  title: "<monofont>Innovating with a <pinkhl>purpose</hl><monofont>"
+  content: "The Openary is a project that aims to inspire others to make *for* others. We believe that by helping each other through innovation, each one of us can make the world a better place.  Check out our projects, build some of them, and then design your own!" 
   image: "/images/nobanner.png"
   button:
     enable: true
     label: "Get Started"
-    link: "/neutrino"
+    link: "/getting-started"
 
 # Features // disabled rn
 
