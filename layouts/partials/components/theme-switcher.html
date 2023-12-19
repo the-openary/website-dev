@@ -1,0 +1,18 @@
+<!--This file is an override for themes/hugoplate/layouts/partials/components/theme-switcher.html-->
+<!-- the override removes the theme-switcher component and logic for setting the theme-->
+<!-- this also forces dark mode. -->
+
+<!-- theme switcher -->
+{{ $class := .Class }}
+<!-- theme switcher -->
+{{ if site.Params.theme_switcher }}
+<script>
+  // ensures the user is always served dark mode
+  document.documentElement.classList.remove("light")
+
+  if (!document.documentElement.classList.contains("dark")) {
+    document.documentElement.classList.add("dark");
+  }
+
+</script>
+{{ end }}

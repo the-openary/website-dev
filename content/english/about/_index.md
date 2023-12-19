@@ -1,5 +1,5 @@
 ---
-title: "The Openary"
+title: "About The Openary"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/icon.png"
