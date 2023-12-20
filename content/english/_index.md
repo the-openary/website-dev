@@ -2,13 +2,12 @@
 # Banner
 banner:
   title: "<span class='monaspace-neon'>Innovating with a <em class='pink-highlight monaspace-argon'>purpose</em><span>"
-  content: "The Openary is a project that aims to inspire others to make *for* others. We believe that by helping each other through innovation, each one of us can make the world a better place.  Check out our projects, build some of them, and then design your own!" 
+  content: "The Openary is a project that aims to inspire others to make *for* others. We believe that by helping each other through innovation, each one of us can make the world a better place.  Check out our projects, build some of them, and then design your own!"
   image: "/images/nobanner.png"
   button:
     enable: true
     label: "Get Started"
     link: "/getting-started"
-
 # Features // disabled rn
 
 # features:
