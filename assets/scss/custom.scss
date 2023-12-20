@@ -2,10 +2,17 @@
 
 @import "fonts";
 
+@mixin deprecate-selector($old-class, $replacement: null){
+  @warn "The `#{$old-class}` selector is deprecated. #{if($replacement != null, 'Use `#{$replacement}` instead.', '')}";
+}
+
+
 pinkhl {
+  @include deprecate-selector("pinkhl");
   color: #db79c1;
 }
 
 monofont {
+  @include deprecate-selector("monofont");
   font-family: "MonaspaceArgon", monospace;
 }
