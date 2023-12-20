@@ -1,12 +1,18 @@
 // Add your own custom styles here
 
-@import 'fonts';
+@import "fonts";
 
-
-pinkhl{
-    color: #db79c1;
+@mixin deprecate-selector($old-class, $replacement: null){
+  @warn "The `#{$old-class}` selector is deprecated. #{if($replacement != null, 'Use `#{$replacement}` instead.', '')}";
 }
 
-monofont{
-    font-family: 'MonaspaceArgon', monospace;
+
+pinkhl {
+  @include deprecate-selector("pinkhl");
+  color: #db79c1;
+}
+
+monofont {
+  @include deprecate-selector("monofont");
+  font-family: "MonaspaceArgon", monospace;
 }
