@@ -7,5 +7,4 @@ draft: false
 image_size: "250x250"
 ---
 
-
 The Openary is a project started by qcoral to inspire others to reach their full potential.

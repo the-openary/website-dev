@@ -2,13 +2,12 @@
 # Banner
 banner:
   title: "<monofont>Innovating with a <pinkhl>purpose</hl><monofont>"
-  content: "The Openary is a project that aims to inspire others to make *for* others. We believe that by helping each other through innovation, each one of us can make the world a better place.  Check out our projects, build some of them, and then design your own!" 
+  content: "The Openary is a project that aims to inspire others to make *for* others. We believe that by helping each other through innovation, each one of us can make the world a better place.  Check out our projects, build some of them, and then design your own!"
   image: "/images/nobanner.png"
   button:
     enable: true
     label: "Get Started"
     link: "/getting-started"
-
 # Features // disabled rn
 
 # features:

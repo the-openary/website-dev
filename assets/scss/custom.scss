@@ -2,10 +2,9 @@
 
 @import "fonts";
 
-@mixin deprecate-selector($old-class, $replacement: null){
+@mixin deprecate-selector($old-class, $replacement: null) {
   @warn "The `#{$old-class}` selector is deprecated. #{if($replacement != null, 'Use `#{$replacement}` instead.', '')}";
 }
-
 
 pinkhl {
   @include deprecate-selector("pinkhl");
