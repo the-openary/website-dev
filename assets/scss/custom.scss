@@ -7,11 +7,15 @@
 }
 
 pinkhl {
-  @include deprecate-selector("pinkhl");
+  @include deprecate-selector("pinkhl", ".pink-highlight");
   color: #db79c1;
 }
 
 monofont {
-  @include deprecate-selector("monofont");
+  @include deprecate-selector("monofont", ".monaspace-argon");
   font-family: "MonaspaceArgon", monospace;
+}
+
+.pink-highlight {
+  color: #db79c1;
 }
