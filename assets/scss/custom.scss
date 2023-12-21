@@ -1,6 +1,7 @@
 // Add your own custom styles here
 
 @import "fonts";
+@import "navbar";
 
 @mixin deprecate-selector($old-class, $replacement: null) {
   @warn "The `#{$old-class}` selector is deprecated. #{if($replacement != null, 'Use `#{$replacement}` instead.', '')}";
