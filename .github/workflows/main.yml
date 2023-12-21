@@ -25,9 +25,6 @@ env:
 jobs:
   # Build job
   build:
-    # this job will only run on PUSH to MAIN on the repository the-openary/website-dev
-    # In PR and forked repository (main) this job will be SKIPPED.
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'the-openary/website-dev'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -68,6 +65,9 @@ jobs:
 
   # Deployment job
   deploy:
+    # this job will only run on PUSH to MAIN on the repository the-openary/website-dev
+    # In PR and forked repository (main) this job will be SKIPPED.
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'the-openary/website-dev'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
