@@ -1,0 +1,48 @@
+// navbar hamburger menu animation
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+// forwards
+input#nav-toggle:checked + label #show-button {
+  animation: fadeOut 0.5s ease forwards;
+}
+
+input#nav-toggle:checked + label #hide-button {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+//backwards
+input#nav-toggle:not(:checked) + label #show-button {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+input#nav-toggle:not(:checked) + label #hide-button {
+  animation: fadeOut 0.5s ease forwards;
+}
+
+input#nav-toggle:checked ~ #nav-menu {
+  @apply block;
+}
+
+//initial state
+#show-button {
+  opacity: 1;
+}
+
+#hide-button {
+  opacity: 0;
+}
