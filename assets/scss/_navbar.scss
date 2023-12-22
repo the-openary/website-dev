@@ -18,20 +18,20 @@
 }
 // forwards
 input#nav-toggle:checked + label #show-button {
-  animation: fadeOut 0.5s ease forwards;
+  animation: fadeOut 0.3s ease forwards;
 }
 
 input#nav-toggle:checked + label #hide-button {
-  animation: fadeIn 0.5s ease forwards;
+  animation: fadeIn 0.3s ease forwards;
 }
 
 //backwards
 input#nav-toggle:not(:checked) + label #show-button {
-  animation: fadeIn 0.5s ease forwards;
+  animation: fadeIn 0.3s ease forwards;
 }
 
 input#nav-toggle:not(:checked) + label #hide-button {
-  animation: fadeOut 0.5s ease forwards;
+  animation: fadeOut 0.3s ease forwards;
 }
 
 input#nav-toggle:checked ~ #nav-menu {
