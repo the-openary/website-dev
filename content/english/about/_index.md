@@ -2,7 +2,7 @@
 title: "About The Openary"
 meta_title: "About"
 description: "this is meta description"
-image: "/images/icon.png"
+image: "/images/aboutus-icon.png"
 draft: false
 image_size: "250x250"
 ---
