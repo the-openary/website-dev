@@ -3,21 +3,6 @@
 @import "fonts";
 @import "navbar";
 
-@mixin deprecate-selector($old-class, $replacement: null) {
-  @warn "The `#{$old-class}` selector is deprecated. #{if($replacement != null, 'Use `#{$replacement}` instead.', '')}";
-}
-
-pinkhl {
-  @include deprecate-selector("pinkhl", ".pink-highlight");
-  color: #db79c1;
-}
-
-monofont {
-  @include deprecate-selector("monofont", ".monaspace-argon");
-  font-family: "MonaspaceArgon", monospace;
-}
-
-
 .pink-highlight {
     color: #db79c1;
 }
