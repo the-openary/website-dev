@@ -56,7 +56,7 @@ jobs:
         run: npm install
 
       - name: Publish to GitHub Pages
-        run: npm run build
+        run: npm run build --baseURL="https://the-openary.github.io/website-dev"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
@@ -67,8 +67,7 @@ jobs:
   deploy:
     # this job will only run on PUSH to MAIN on the repository the-openary/website-dev
     # In PR and forked repository (main) this job will be SKIPPED.
-    #    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'the-openary/website-dev'
-    if: false
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'the-openary/website-dev'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
