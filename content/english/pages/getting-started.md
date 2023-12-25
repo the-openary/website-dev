@@ -8,7 +8,6 @@ description: "Getting started at The Openary"
 draft: false
 ---
 
-
 ##### Ready to start your innovation journey? Great! This is the place. Here's how the site works:
 
 Under **Projects** is a list of projects that you can make (although currently, there is only Neutrino). Heres an overview of each:
@@ -19,12 +18,13 @@ Under **Projects** is a list of projects that you can make (although currently, 
 
 Under **Resources** is a list of pages that contain generally good to know information. These include
 
-- [**Project Design**](/resources/project-design): A page explaining how *you* can get started with designing your own project! It consists of everything that we learned over the design of Neutrino, starting from brainstorming all the way to assembly. Currently WIP.
+- [**Project Design**](/resources/project-design): A page explaining how _you_ can get started with designing your own project! It consists of everything that we learned over the design of Neutrino, starting from brainstorming all the way to assembly. Currently WIP.
 - **TBD**: More to come...
 
 Under [**Blog**](/blog) is our personal blog. Anyone from the team can make a blog post.
 
-Make sure to join the [Discord.](https://discord.com/invite/VZFWGp7FHZ) There you'll be able to connect with others and get help. It's totally worth it. 
+Make sure to join the [Discord.](https://discord.com/invite/VZFWGp7FHZ) There you'll be able to connect with others and get help. It's totally worth it.
 
 #### FAQ
+
 WIP

@@ -8,5 +8,4 @@ banner:
     enable: true
     label: "Get Started"
     link: "/getting-started"
-
 ---
