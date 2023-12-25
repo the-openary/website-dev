@@ -3,21 +3,28 @@ title: "Getting Started"
 # meta title
 meta_title: ""
 # meta description
-description: "This is meta description"
+description: "Getting started at The Openary"
 # save as draft
 draft: false
 ---
 
-Join the [Discord](https://discord.com/invite/VZFWGp7FHZ). It'll help a lot.
 
-### Overview
+##### Ready to start your innovation journey? Great! This is the place. Here's how the site works:
 
-Want to get involved? Great! Usually, this involves building one of our projects first. Heres an overview of each:
+Under **Projects** is a list of projects that you can make (although currently, there is only Neutrino). Heres an overview of each:
 
-**Neutrino**: A cheap, portable 3D printer. Under $300 CAD.
+- [**Neutrino**](/projects/neutrino): A simple, portable 3D printer for under $200 USD. PET Bottle recycling capabilities soon!
 
-**TBD**: More projects to come! Got tons of ideas.
+- **TBD**: More projects to come! Got tons of ideas.
 
-### FAQ
+Under **Resources** is a list of pages that contain generally good to know information. These include
 
+- [**Project Design**](/resources/project-design): A page explaining how *you* can get started with designing your own project! It consists of everything that we learned over the design of Neutrino, starting from brainstorming all the way to assembly. Currently WIP.
+- **TBD**: More to come...
+
+Under [**Blog**](/blog) is our personal blog. Anyone from the team can make a blog post.
+
+Make sure to join the [Discord.](https://discord.com/invite/VZFWGp7FHZ) There you'll be able to connect with others and get help. It's totally worth it. 
+
+#### FAQ
 WIP

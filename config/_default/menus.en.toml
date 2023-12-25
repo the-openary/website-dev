@@ -1,21 +1,25 @@
 ############# English navigation ##############
 
 # main menu
-[[main]]
-name = "Home"
-url = "/"
-weight = 1
+# [[main]]
+# name = "Home"
+# url = "/"
+# weight = 1
 
+[[main]]
+name = "Getting Started"
+url = "getting-started/"
+weight = 2
 
 [[main]]
 name = "Blog"
 url = "blog/"
-weight = 3
+weight = 4
 
 [[main]]
 name = "About"
 url = "about/"
-weight = 4
+weight = 5
 
 # [[main]]
 # name = "Contact"
@@ -30,12 +34,35 @@ hasChildren = true
 [[main]]
 parent = "Projects"
 name = "Neutrino"
-url = "neutrino/"
+url = "projects/neutrino/"
 
 [[main]]
-parent = "Projects"
-name = "Getting Started"
-url = "getting-started/"
+weight = 3
+name = "Resources"
+hasChildren = true
+url = "resources/"
+
+[[main]]
+parent = "Resources"
+name = "Project Design"
+url = "resources/project-design/"
+
+# [[main]]
+# parent = "Resources"
+# name = "Biology"
+# url = "resources/engineering"
+
+# [[main]]
+# parent = "Resources"
+# name = "Physics"
+# url = "resources/engineering"
+
+# [[main]]
+# parent = "Resources"
+# name = "Economics"
+# url = "resources/engineering"
+
+
 
 
 # footer menu

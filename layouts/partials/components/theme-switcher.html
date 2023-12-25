@@ -8,10 +8,10 @@
 {{ if site.Params.theme_switcher }}
   <script>
     // ensures the user is always served dark mode
-    document.documentElement.classList.remove("light");
+    document.documentElement.classList.remove("dark");
 
-    if (!document.documentElement.classList.contains("dark")) {
-      document.documentElement.classList.add("dark");
+    if (!document.documentElement.classList.contains("light")) {
+      document.documentElement.classList.add("light");
     }
   </script>
 {{ end }}

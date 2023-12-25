@@ -4,6 +4,7 @@ Thumbs.db
 .tmp
 .lock
 .sass-cache
+.vscode
 npm-debug.log
 node_modules
 builds

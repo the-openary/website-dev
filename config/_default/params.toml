@@ -15,8 +15,8 @@ logo_text = "The Openary"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
-theme_switcher = true
-theme_default = "dark" # available options [light/dark/system]
+theme_switcher = false
+theme_default = "light" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Made with <3 by qcoral"
+copyright = "Website made with <3 by <u>[qcoral](https://github.com/qcoral)</u> and <u>[thearyadev](https://github.com/thearyadev)</u>"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
