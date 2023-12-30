@@ -1,14 +1,14 @@
 <!-- JS Plugins + Main script -->
 {{ $scripts := slice }}
 {{ range site.Params.plugins.js }}
-  {{ if findRE "^http" .link }}
-    <script
-      src="{{ .link | relURL }}"
-      type="application/javascript"
-      {{ .attributes | safeHTMLAttr }}></script>
-  {{ else }}
-    {{ $scripts = $scripts | append (resources.Get .link) }}
-  {{ end }}
+    {{ if findRE "^http" .link }}
+        <script
+            src="{{ .link | relURL }}"
+            type="application/javascript"
+            {{ .attributes | safeHTMLAttr }}></script>
+    {{ else }}
+        {{ $scripts = $scripts | append (resources.Get .link) }}
+    {{ end }}
 {{ end }}
 
 
@@ -16,14 +16,14 @@
 {{ $scripts = $scripts | append (resources.Get "js/main.js") }}
 {{ $scripts = $scripts | resources.Concat "js/script.js" }}
 {{ if hugo.IsProduction }}
-  {{ $scripts = $scripts | minify | fingerprint }}
+    {{ $scripts = $scripts | minify | fingerprint }}
 {{ end }}
 
 
 <script
-  crossorigin="anonymous"
-  integrity="{{ $scripts.Data.Integrity }}"
-  src="{{ $scripts.RelPermalink }}"></script>
+    crossorigin="anonymous"
+    integrity="{{ $scripts.Data.Integrity }}"
+    src="{{ $scripts.RelPermalink }}"></script>
 
 <!-- progressive web app -->
 {{ partialCached "pwa.html" . }}

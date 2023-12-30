@@ -6,12 +6,12 @@
 {{ $class := .Class }}
 <!-- theme switcher -->
 {{ if site.Params.theme_switcher }}
-  <script>
-    // ensures the user is always served dark mode
-    document.documentElement.classList.remove("dark");
+    <script>
+        // ensures the user is always served dark mode
+        document.documentElement.classList.remove("dark");
 
-    if (!document.documentElement.classList.contains("light")) {
-      document.documentElement.classList.add("light");
-    }
-  </script>
+        if (!document.documentElement.classList.contains("light")) {
+            document.documentElement.classList.add("light");
+        }
+    </script>
 {{ end }}

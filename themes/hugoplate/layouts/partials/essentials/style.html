@@ -32,28 +32,28 @@
 <!-- plugins + stylesheet -->
 {{ $styles := slice }}
 {{ range site.Params.plugins.css }}
-  {{ if findRE "^http" .link }}
-    <link
-      crossorigin="anonymous"
-      media="all"
-      rel="stylesheet"
-      href="{{ .link | relURL }}"
-      {{ .attributes | safeHTMLAttr }} />
-  {{ else }}
-    {{ $styles = $styles | append (resources.Get .link) }}
-  {{ end }}
+    {{ if findRE "^http" .link }}
+        <link
+            crossorigin="anonymous"
+            media="all"
+            rel="stylesheet"
+            href="{{ .link | relURL }}"
+            {{ .attributes | safeHTMLAttr }} />
+    {{ else }}
+        {{ $styles = $styles | append (resources.Get .link) }}
+    {{ end }}
 {{ end }}
 {{ $styles := $styles | append (resources.Get "scss/main.scss" | toCSS) }}
 {{ $styles := $styles | resources.Concat "css/style.css" }}
 {{ $styles = $styles | resources.PostCSS }}
 {{ if hugo.IsProduction }}
-  {{ $styles = $styles | resources.ExecuteAsTemplate "css/style.css" . | minify | fingerprint | resources.PostProcess }}
+    {{ $styles = $styles | resources.ExecuteAsTemplate "css/style.css" . | minify | fingerprint | resources.PostProcess }}
 {{ else }}
-  {{ $styles = $styles | resources.ExecuteAsTemplate "css/style.css" . }}
+    {{ $styles = $styles | resources.ExecuteAsTemplate "css/style.css" . }}
 {{ end }}
 
 
 <link
-  href="{{ $styles.RelPermalink }}"
-  integrity="{{ $styles.Data.Integrity }}"
-  rel="stylesheet" />
+    href="{{ $styles.RelPermalink }}"
+    integrity="{{ $styles.Data.Integrity }}"
+    rel="stylesheet" />
