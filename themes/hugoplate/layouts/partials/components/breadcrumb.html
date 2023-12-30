@@ -4,29 +4,29 @@
 
 
 <ul class="{{ $class }} inline-flex space-x-1 capitalize">
-  <li>
-    <a
-      class="text-primary dark:text-darkmode-primary"
-      href="{{ $base | relLangURL }}">
-      {{ i18n "home" | default "Home" }}
-    </a>
-    <span class="inlin-block mr-1">/</span>
-  </li>
-  {{ range $i, $e:= $context.Ancestors.Reverse }}
-    {{ if and (not .IsHome) (ne .Title "Pages") }}
-      <li>
+    <li>
         <a
-          class="text-primary dark:text-darkmode-primary"
-          href="{{ .RelPermalink }}">
-          {{ .Title }}
+            class="text-primary dark:text-darkmode-primary"
+            href="{{ $base | relLangURL }}">
+            {{ i18n "home" | default "Home" }}
         </a>
         <span class="inlin-block mr-1">/</span>
-      </li>
+    </li>
+    {{ range $i, $e:= $context.Ancestors.Reverse }}
+        {{ if and (not .IsHome) (ne .Title "Pages") }}
+            <li>
+                <a
+                    class="text-primary dark:text-darkmode-primary"
+                    href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>
+                <span class="inlin-block mr-1">/</span>
+            </li>
+        {{ end }}
     {{ end }}
-  {{ end }}
-  <li>
-    <span class="text-primary dark:text-darkmode-primary">
-      {{ $context.Title }}
-    </span>
-  </li>
+    <li>
+        <span class="text-primary dark:text-darkmode-primary">
+            {{ $context.Title }}
+        </span>
+    </li>
 </ul>
