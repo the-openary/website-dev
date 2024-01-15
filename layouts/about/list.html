@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{/*  about   */}}
+  {{/* about */}}
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
@@ -14,9 +14,9 @@
         </div>
         <h2 class="h3 mb-6">Meet the Team</h2>
         {{ range .RegularPages }}
-        <div class="md:col-6 lg:col-4 mb-14">
-          {{ partial "components/author-card" . }}
-        </div>
+          <div class="md:col-6 lg:col-4 mb-14">
+            {{ partial "components/author-card" . }}
+          </div>
         {{ end }}
       </div>
     </div>
