@@ -11,11 +11,15 @@
       width="120"
       src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
   {{ end }}
-  <h4 class="mb-3">
+  <h4 class="mb-1">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h4>
+  <h6 class="mb-3">
+    {{ .Params.role }}
+  </h6>
   <p class="mb-4">
-    {{ .Summary }}
+    {{ $path := (printf "%s%s%s" "/content/english/summaries/" .File.BaseFileName ".md") }}
+    {{ readFile $path }}
   </p>
   <ul class="social-icons">
     {{ range .Params.social }}

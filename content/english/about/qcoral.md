@@ -1,8 +1,9 @@
 ---
-title: Alex | qcoral
+title: Alex | qcoral | 18
 image: "/images/team/qcoral.png"
 description: About an author of The Openary
 weight: 1
+role: Founder
 social:
   - name: github
     icon: fa-brands fa-github
@@ -13,4 +14,6 @@ social:
     link: https://twitter.com/qcoral_
 ---
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
+## Personal portfolio
+
+- does this work LETS GOO

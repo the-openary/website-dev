@@ -3,6 +3,7 @@ title: Arya | thearyadev
 image: "/images/team/thearyadev.png"
 description: About an author of The Openary
 weight: 2
+role: Lead web developer
 social:
   - name: github
     icon: fa-brands fa-github

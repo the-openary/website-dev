@@ -6,10 +6,10 @@
 # url = "/"
 # weight = 1
 
-[[main]]
-name = "Getting Started"
-url = "getting-started/"
-weight = 2
+# [[main]]
+# name = "Introduction"
+# url = "introduction/"
+# weight = 2
 
 [[main]]
 name = "Blog"
@@ -34,7 +34,7 @@ hasChildren = true
 [[main]]
 parent = "Projects"
 name = "Neutrino"
-url = "projects/neutrino/"
+url = "neutrino/"
 
 [[main]]
 weight = 3

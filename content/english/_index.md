@@ -7,5 +7,5 @@ banner:
   button:
     enable: true
     label: "Get Started"
-    link: "/getting-started"
+    link: "/introduction"
 ---

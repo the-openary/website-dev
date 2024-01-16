@@ -1,9 +1,9 @@
 ---
-title: "Getting Started"
+title: "Introduction to The Openary"
 # meta title
 meta_title: ""
 # meta description
-description: "Getting started at The Openary"
+description: "Introduction to The Openary"
 # save as draft
 draft: false
 ---
