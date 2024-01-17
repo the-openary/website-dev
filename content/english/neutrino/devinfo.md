@@ -8,4 +8,4 @@ description: "A cheap, accessible printer that fits inside a spool box"
 draft: false
 ---
 
-aoeuasdf
+Story

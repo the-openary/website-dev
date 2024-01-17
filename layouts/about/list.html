@@ -12,7 +12,8 @@
             {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "mx-auto mb-6" "Size" .Params.image_size) }}
           </div>
         </div>
-        <h2 class="h3 mb-6">Meet the Team</h2>
+        <h2 class="h3 mb-4">Meet the Team</h2>
+        <h6 class="h6 mb-6">Click on the member's name to learn more about them</h6>
         {{ range .RegularPages }}
           <div class="md:col-6 lg:col-4 mb-14">
             {{ partial "components/author-card" . }}
