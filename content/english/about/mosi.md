@@ -1,9 +1,9 @@
 ---
-title: Harry | mosi
+title: Harry
 image: "/images/team/mosi.png"
 description: About an author of The Openary
 weight: 3
-role: Philosopher
+extra: mosi
 social:
 ---
 

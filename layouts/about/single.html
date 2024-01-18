@@ -15,7 +15,10 @@
               width="200"
               src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
           {{ end }}
-          <h1 class="h3 mt-10">{{ .Title }}</h1>
+          <h1 class="h3 mt-10 mb-4">{{ .Title }}</h1>
+          <h6 class="mb-3">
+            {{ .Params.extra }}
+          </h6>
           <div class="content mt-6">
             {{ $path := (printf "%s%s%s" "/content/english/summaries/" .File.BaseFileName ".md") }}
             {{ readFile $path }}

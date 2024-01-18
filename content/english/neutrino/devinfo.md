@@ -1,5 +1,5 @@
 ---
-title: "The process"
+title: "Development"
 # meta title
 meta_title: ""
 # meta description

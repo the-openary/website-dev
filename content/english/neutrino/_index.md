@@ -6,9 +6,10 @@ meta_title: ""
 description: "A cheap, accessible printer that fits inside a spool box"
 # save as draft
 draft: false
+layout: single
 ---
 
-#### What is Neutrino?
+### What is Neutrino?
 
 [Gallery here]
 
@@ -17,9 +18,9 @@ Neutrino is a 3D printer designed with accessiblity in mind.
 
 Interested in how Neutrino was built? Check it out here:
 
-{{< button label="Learn about the development ➜" link="/" style="solid" >}}
+{{< button label="Learn about the development ➜" link="/neutrino/devinfo" style="solid" >}}
 
-#### Features
+### Features
 
 
 If this sounds like the printer for you, join the [discord] and click the button:
