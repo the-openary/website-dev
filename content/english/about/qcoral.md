@@ -14,6 +14,9 @@ social:
     link: https://twitter.com/qcoral_
 ---
 
-## Personal portfolio
+# More about me
 
-- does this work LETS GOO
+- What do you do in your spare time? \
+Journaling is pretty awesome
+
+### Projects
