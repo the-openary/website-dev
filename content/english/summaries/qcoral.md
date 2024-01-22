@@ -1,1 +1,1 @@
-Alex is the founder of the project. You can find their work pretty much anywhere, from hardware projects to the website itself
+Alex is the founder of the project. You can find their work pretty much anywhere, from hardware projects to the website itself.

@@ -1,5 +1,5 @@
 ---
-title: Alex | 18
+title: Alex
 image: "/images/team/qcoral.png"
 description: About an author of The Openary
 weight: 1
@@ -16,7 +16,13 @@ social:
 
 # More about me
 
-- What do you do in your spare time? \
+### Fun facts
+
+- **What do you do in your spare time?** \
 Journaling is pretty awesome
 
-### Projects
+### Other Projects
+
+##### Voron Legacy
+
+##### Lemon Keypad

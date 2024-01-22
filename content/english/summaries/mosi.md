@@ -1,0 +1,1 @@
+Harry helps with defining the ethos of the project. He helps turn the vision of The Openary into a concrete set of goals and values.

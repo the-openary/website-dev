@@ -1,0 +1,1 @@
+Arya mainly focuses on the website development.

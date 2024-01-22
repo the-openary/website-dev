@@ -7,4 +7,9 @@ extra: mosi
 social:
 ---
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
+# More about me
+
+Favourite sport: biking
+favourite music genre: touhou
+Favouritet animal: golden snub nosed monkey
+goal: speak 8 languages
