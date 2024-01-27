@@ -1,1 +1,1 @@
-Arya mainly focuses on the website development.
+Arya mainly focuses on the website development. He's currently working on a new, revamped website (coming soon!).

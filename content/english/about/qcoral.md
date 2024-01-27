@@ -18,11 +18,19 @@ social:
 
 ### Fun facts
 
-- **What do you do in your spare time?** \
-Journaling is pretty awesome
+- **What do you do for fun?** \
+I've been a pretty big fan of journaling lately, I think it really helps me gather my thoughts.
 
-### Other Projects
+- **Favourite band?** \
+Definitely Paramore
+
+### Personal Projects
 
 ##### Voron Legacy
 
-##### Lemon Keypad
+![Image of Voron printing](/images/voron/avatar.png)
+
+##### This website
+
+##### Origami
+

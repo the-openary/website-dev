@@ -9,7 +9,13 @@ social:
 
 # More about me
 
-Favourite sport: biking
-favourite music genre: touhou
-Favouritet animal: golden snub nosed monkey
-goal: speak 8 languages
+### Fun facts
+
+- **Favourite music genre?** \
+Touhou
+
+- **Favourite animal?** \
+The [golden snub-nosed monkey](https://en.wikipedia.org/wiki/Golden_snub-nosed_monkey)
+
+- **A goal of yours?** \
+Be proficient in 8 languages in the future

@@ -1,30 +1,41 @@
 ---
-title: "Introduction to The Openary"
+title: "A guide to The Openary"
 # meta title
 meta_title: ""
 # meta description
-description: "Introduction to The Openary"
+description: "A guide to The Openary"
 # save as draft
 draft: false
 ---
 
-##### Ready to start your innovation journey? Great! This is the place. Here's how the site works:
+### Overview
 
-Under **Projects** is a list of projects that you can make (although currently, there is only Neutrino). Heres an overview of each:
+{{< gallery dir="images/guide/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 
-- [**Neutrino**](/projects/neutrino): A simple, portable 3D printer for under $200 USD. PET Bottle recycling capabilities soon!
+This project is about enabling as many people as possible to make and innovate; this page aims to explain how to navigate the resources here. If you ever need to get here again, click the "guide" button in the navigation menu.
 
+### Projects
+
+These are different projects that the openary released. Currently, only Neutrino is public. Heres an overview of each:
+
+- [**Neutrino**](/neutrino/): A simple, portable 3D printer for under $200 USD. PET Bottle recycling capabilities soon!
 - **TBD**: More projects to come! Got tons of ideas.
 
-Under **Resources** is a list of pages that contain generally good to know information. These include
+
+### Resources
+These are generally useful pieces of information. ...??? better
 
 - [**Project Design**](/resources/project-design): A page explaining how _you_ can get started with designing your own project! It consists of everything that we learned over the design of Neutrino, starting from brainstorming all the way to assembly. Currently WIP.
 - **TBD**: More to come...
 
-Under [**Blog**](/blog) is our personal blog. Anyone from the team can make a blog post.
+### Blog
 
-Make sure to join the [Discord.](https://discord.com/invite/VZFWGp7FHZ) There you'll be able to connect with others and get help. It's totally worth it.
+[**Here**](/blog) you can find the blog posts from members of The Openary. You can find personal posts, project updates, announcements, and more!
 
-#### FAQ
+### About
+
+Here you can find more information about each person
+
+### FAQ
 
 WIP

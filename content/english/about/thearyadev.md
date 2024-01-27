@@ -16,4 +16,6 @@ social:
 
 # More about me
 
+Neovim.
+
 Coming soon!
