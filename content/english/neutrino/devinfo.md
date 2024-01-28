@@ -8,21 +8,59 @@ description: "A cheap, accessible printer that fits inside a spool box"
 draft: false
 ---
 
-### Heavier context to the printer
-Why I got started etc
+{{< toc >}}
 
-### Getting started and the workflow
-- Challenges faced etc 
+Note: Currrently, [Alex](/about/qcoral) is the only developer of the project, so this was written entirely by them, from their perspective.
+
+### The Story
+
+Back in January of 2023, I (Alex) finally finished my [VORON Legacy](/about/qcoral) by the [VORON Design](https://vorondesign.com/) team. I thought it was pretty cool to be able to design everything from scratch
+
+### Starting development and the workflow
+- Challenges faced, what software to use, etc
+- Krita
+- Obsidian
+- Paper sketches
+
 
 ### Working on each component and problems faced
 
-- Gantry Kinematics
-- Extruder & Toolhead setup
-- Z-axis & Bed setup
-- Electronics/firmware setup
-- OLED assembly
-- ???
+#### Template
+
+- Prelude/context to the problem 
+- Solution decided on and why 
+- Problem(s) run into along the way 
+- Possible final thoughts 
+
+#### Kinematics
+
+CoreXY
+
+#### Extruder
+
+Different options
+- Sherpa mini
+- Sharkfin
+- Stealthburner
+- Custom
+
+
+#### Z-axis
+
+Z-axis
+- Heated bed
+
+#### Electronics & firmware
+
+Klipper
+- Marling
+
+#### OLED
+
+- Custom PCB designs, the printable 
+???
 
 ### Final takeaways, next steps
 
-- Recycling
+- Recycling bit 
+- What it meant to me 

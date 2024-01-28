@@ -8,4 +8,4 @@ description: "A guide by The Openary"
 draft: false
 ---
 
-### WIP
+##### This page will contain information on to get started designing your own projects. It's currently incomplete, check back later.
