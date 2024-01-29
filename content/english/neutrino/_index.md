@@ -30,25 +30,23 @@ In line with the ethos of The Openary, the development process of Neutrino is ex
 <!-- 
 - More technical information in general; keep it brief -->
 
-Being designed with accessibility mind, Neutrino attempts to resolve common 3D printing roadblocks. 
+Designed with accessibility mind, Neutrino attempts to resolve common 3D printing roadblocks. It can be built purely from off-the-shelf components and 3D printed parts, all for under $220 USD. No CNC machines or specialized equipment required.
 
-- Can be built for under $220 USD, including shipping costs
-- Designed with solely off-the-shelf components and printed parts. No CNC machines required.
+##### Completed features:
 
-**Completed features:**
-
-- Fits inside a standard 200x200x70mm Filament box
+- Fits inside a standard 200x200x70mm filament box
 - Auto bed leveling
-- CoreXY setup 
-- Runs klipper firmware
+- Klipper firmware
+- CoreXY kinematics
+- Fully Open Source (MIT License)
 
-**Features currently in progress:**
-- Self replicating capabilities \
+##### Features currently in progress:
+- **Self replicating capabilities** \
+Neutrino aims to be [RepRap](https://reprap.org/wiki/RepRap) compatible, meaning that it can print all of its own parts. Unfortunately though, the base currently does not fit in Neutrino's build volume; this is actively being worked on.
+- **PET Plastic bottle recycling** \
+One of the most important issues in 3D printing is the plastic waste it generates. To solve this, an up-and-coming feature of Neutrino is to be able to recycle plastic bottles into filament, on the go. The [development page](/neutrino/devinfo) has more information on the status of this feature.
 
-- PET Plastic bottle recycling \
-Currently aiming to 
-
-If this sounds like the printer for you, join the [discord](https://discord.com/invite/VZFWGp7FHZ) and get started:
+If this sounds like the printer for you, join the [discord](https://discord.com/invite/VZFWGp7FHZ) and get started!
 
 {{< button label="Build your own ➜" link="/neutrino/building" style="solid" >}}
 <br>

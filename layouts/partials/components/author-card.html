@@ -18,7 +18,7 @@
     {{ .Params.extra }}
   </h6>
   <p class="mb-4">
-    {{ $path := (printf "%s%s%s" "/content/english/summaries/" .File.BaseFileName ".md") }}
+    {{ $path := (printf "%s%s" .File.Dir "/summary.md") }}
     {{ readFile $path }}
   </p>
   <ul class="social-icons">

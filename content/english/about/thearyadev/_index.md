@@ -1,9 +1,10 @@
 ---
 title: Arya 
-image: "/images/team/thearyadev.png"
+image: "/images/thearyadev/icon.png"
 description: About an author of The Openary
 weight: 2
 extra: thearyadev
+layout: single
 social:
   - name: github
     icon: fa-brands fa-github

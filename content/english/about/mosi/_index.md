@@ -1,9 +1,10 @@
 ---
 title: Harry
-image: "/images/team/mosi.png"
+image: "/images/mosi/icon.png"
 description: About an author of The Openary
 weight: 3
 extra: mosi
+layout: single
 social:
 ---
 
