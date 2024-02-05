@@ -11,7 +11,9 @@ layout: single
 
 ### What is Neutrino?
 
-Neutrino is a 3D printer designed by [Alex.](/about/qcoral/) Wanting to make 3D printing more accessible, they designed Neutrino to be low-cost, portable, and easy to build. Currently, Neutrino is in alpha release and actively being worked on.
+Neutrino is a 3D printer designed by [Alex.](/about/qcoral/) Wanting to make 3D printing more accessible, they designed Neutrino to be low-cost, portable, and easy to build. Currently, Neutrino is in alpha release and actively being worked on, with a proper YouTube video coming. In the meantime, you can find miscellaneous videos in the [discord.](https://discord.com/invite/VZFWGp7FHZ)
+
+##### The files can be found here: https://github.com/the-openary/neutrino
 
 {{< gallery dir="images/neutrino/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 
@@ -49,6 +51,11 @@ One of the most important issues in 3D printing is the plastic waste it generate
 If this sounds like the printer for you, join the [discord](https://discord.com/invite/VZFWGp7FHZ) and get started!
 
 {{< button label="Build your own ➜" link="/neutrino/building" style="solid" >}}
-<br>
+
+### How does it work?
+
+
+![Neutrino Diagram](/images/neutrino/neutrinodiagram.png)
+Once you're connected to the local WiFi network, you can upload 3D models through the web interface. The Raspberry Pi will process the 3D model's gcode, and then send it to the SKR Mini E3. The SKR Mini E3 then sends the signals to the rest of the printer to control it. _More coming soon, this is VERY WIP._
 
 ###### [Credits](/credits)
