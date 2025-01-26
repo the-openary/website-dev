@@ -97,24 +97,24 @@ When it came to the software I'd actually use for designing, my choices were pre
 
 Being a portable printer, there were many design considerations I had to aim at. Each had their own specific problems to deal with. For ease of reading, I've blocked this section out into each respective component
 
-<!-- #### Template
+#### Template
 
 - Introduce constraints/prelude/context to the problem 
 - Solution decided on and why 
 - Problem(s) run into along the way 
-- Possible final thoughts  -->
+- Possible final thoughts 
 
-<!-- #### Innovations
+#### Innovations
 
 Addtionally, I had just seen [this video](https://www.youtube.com/watch?v=bdCn-xrBLsE) by Thomas Sanladerer. In an attempt to minimize resonances, he fills a typical 3D printer with sand. While his results were rather disappointing, the idea intrigued me alot. This was because standard 3D prints use a type of infill called "gyroid" infill, which is technically a singular cavity.
 
-- Sand? -->
+- Sand?
 
 #### Gantry Kinematics
 
 Coming soon!
 
-<!-- First thing to figure out was the kinematics setup. Being a portable printer, I needed something that was size-efficient and could print fast as well.
+First thing to figure out was the kinematics setup. Being a portable printer, I needed something that was size-efficient and could print fast as well.
 
 Before considering *any* setup though, I first set myself a constraint of being only allowed common 3D printing hardware, so I made a list of what I was allowed to use:
 
@@ -136,20 +136,20 @@ The most common setup are bed slingers. I ruled this out fairly early on for 2 r
 
 (diagram here)
 
-This narrowed my options down to  -->
+This narrowed my options down to 
 
 #### Extrusion setup
 
 Coming soon!
 
-<!-- Constraints:
+Constraints:
 
 - Want to print PLA 
 - Cheap
 - Fast enough
-- Accessible -->
+- Accessible
 
-<!-- Extrusion was something I spent a lot of my time on.
+Extrusion was something I spent a lot of my time on.
 
 Different options
 - Sherpa mini
@@ -157,38 +157,38 @@ Different options
 - Stealthburner
 - Custom
 
-The pros and cons -->
+The pros and cons
 
 #### Z-axis
 
 Coming soon!
 
-<!-- Constraints:
+Constraints:
 
 Wanted to print as many types of filament as possible, so a heated bed seemed like a good idea -->
 
 
-<!-- Z-axis
+Z-axis
 - Heated bed
-- Rubber thing -->
+- Rubber thing
 
 #### Frame & Base
 
 Coming soon!
 
-<!-- Sand, Z axis and rods... etc -->
+Sand, Z axis and rods... etc
 
 #### Electronics & Firmware
 
 Coming soon!
 
-<!-- This mainly relied on the user experience
+This mainly relied on the user experience
 - Think ??
 
-- Marlin -->
+- Marlin
 
 
-<!-- Electronics
+Electronics
 
 Modability
 
@@ -198,18 +198,18 @@ Firmware
 
 https://www.instructables.com/Small-and-Cheap-Tiny-OLED-for-Ender-3-stock-and-SK/
 
-??? -->
+???
 
 #### PET Recycling unit
 
 Coming soon!
 
-<!-- This was probably the most innovative part I tried.  -->
+This was probably the most innovative part I tried. 
 
 ### Final takeaways, next steps
 
 Coming soon!
-<!-- 
-The thing I want you to take away: when I started this project, I was, and still am, a regular person. I think it's easy to abstract away everything.  -->
 
-<!-- - What it meant to me  -->
+The thing I want you to take away: when I started this project, I was, and still am, a regular person. I think it's easy to abstract away everything. 
+
+- What it meant to me 
